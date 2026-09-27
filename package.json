@@ -1,5 +1,6 @@
 {
-  "name": "react-example",
+  "name": "dth",
+  "homepage": "https://kelvin-owino.github.io/dth",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,7 +10,7 @@
     "preview": "vite preview",
     "clean": "rm -rf dist server.js",
     "lint": "tsc --noEmit",
-    "predeploy": "npm run build",
+    "predeploy": "GITHUB_PAGES=true npm run build",
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {

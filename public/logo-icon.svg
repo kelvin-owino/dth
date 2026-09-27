@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
+  <defs>
+    <linearGradient id="dthGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0ea5e9" />
+      <stop offset="50%" stop-color="#14b8a6" />
+      <stop offset="100%" stop-color="#10b981" />
+    </linearGradient>
+    <linearGradient id="nodeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#2dd4bf" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Outer Rounded Hexagon / Tech Node Shield -->
+  <rect x="8" y="8" width="84" height="84" rx="22" fill="#0f172a" stroke="url(#dthGrad)" stroke-width="3" />
+  
+  <!-- Stylized Geometric 'D' with network hub nodes -->
+  <path d="M30 26 H48 C62 26 70 36 70 50 C70 64 62 74 48 74 H30 V26 Z" fill="none" stroke="url(#dthGrad)" stroke-width="6.5" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M42 38 H47 C54 38 58 43 58 50 C58 57 54 62 47 62 H42 V38 Z" fill="none" stroke="url(#dthGrad)" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" opacity="0.6" />
+  
+  <!-- Central interconnecting pulse hub -->
+  <circle cx="50" cy="50" r="5" fill="#38bdf8" />
+  <circle cx="30" cy="26" r="4.5" fill="#14b8a6" />
+  <circle cx="30" cy="74" r="4.5" fill="#10b981" />
+  <circle cx="70" cy="50" r="4.5" fill="#38bdf8" />
+  
+  <!-- Connection pulses -->
+  <line x1="30" y1="50" x2="45" y2="50" stroke="#38bdf8" stroke-width="2.5" stroke-dasharray="2 3" />
+</svg>
